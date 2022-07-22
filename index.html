@@ -11,47 +11,44 @@
 </head>
 <body>
     <!-- inicio navbar -->
-<div class="row">  
-    <nav class="navbar bg-light container-fluid">
+<div class="container-fluid">
+        <nav class="navbar bg-secondary bg-gradient d-flex">
         <div class="container-fluid">
-          <a class="navbar-brand" id="titulo" href="#">
-            <div class="col">
-                <img id="foto" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                <h2 style="font-family:'Courier New', Courier;">Instagram</h2>
+            <a class="navbar-brand d-flex" href="#">
+                <i class="bi bi-instagram fa-10x"></i>
+                <h5 class="display-5">Instagram</h5>
+            </a>
+        <div class="row">
+            <div class="col-6">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Post</button>
             </div>
-                <!-- inicio boton y dropdown -->
-            <div class="col d-flex flex-row">
-                <button class="btn btn-outline-success me-2 boton1" type="button">Create a new post</button>  
+            <div class="col-6">
                 <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="bi bi-gear-fill"></i>
-                    </a>
-                    <div class="col">        
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                         </ul>
-                    </div>        
-                </div>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-gear"></i>
+                    </button>
+                    <ul class="dropdown-menu margin-right-md">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
             </div>
-            <!-- cierre boton y dropdown-->
-        </a>
-        </div>  
-    </nav>   
-</div>     
-        <!-- cierra navbar -->
-        <!-- inicio navbar para ver tipos de vista -->
-        <div class="toggle">
-            <ul class="nav nav-pills mb-3 justify-content-center col-12" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active justify-content-center" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="bi bi-grid"></i></button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link justify-content-center" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="bi bi-square-fill"></i></button>
-                </li>
+        </div> 
         </div>
-            </ul>
+        </nav> 
+    <!-- cierra navbar -->  
+        <!-- inicio navbar para ver tipos de vista -->
+        <div class="toggle bg-secondary bg-gradient">
+            <ul class="nav nav-pills mb-3 justify-content-center col-12" id="pills-tab" role="tablist">
+                <li class="nav-item bg-gradient" role="presentation">
+                  <button class="nav-link active justify-content-center bg-dark bg-gradient" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="bi bi-grid"></i></button>
+                </li>
+                <li class="nav-item bg-gradient" role="presentation">
+                  <button class="nav-link justify-content-center bg-dark bg-gradient" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="bi bi-square-fill"></i></button>
+                </li>
+            </ul>    
+        </div>
             <!-- cierre de cambio tipo de vista -->
             <!-- inicio vista grid -->
             <div class="tab-content" id="pills-tabContent">
@@ -64,20 +61,132 @@
                         </div>
                         <div class="col-4 col-md-4 col-lg-4">
                             <div class="card">
-                            <img src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg" class="card-img-top" alt="...">
+                            <img src="https://t1.uc.ltmcdn.com/es/posts/7/5/5/como_cuidar_de_un_cocker_spaniel_5557_orig.jpg" class="card-img-top" alt="...">
                             </div>
                         </div>    
                         <div class="col-4 col-md-4 col-lg-4">
                             <div class="card">
-                            <img src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg" class="card-img-top" alt="...">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Red_eyed_tree_frog.jpg" class="card-img-top" alt="...">
                             </div>
                         </div>    
                     </div>
+                    <div class="row">
+                        <div class="col-4 col-md-4 col-lg-4">
+                        <div class="card">
+                            <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-800x409.jpg" class="card-img-top" alt="...">
+                        </div>
+                        </div>
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <div class="card">
+                            <img src="https://i.pinimg.com/originals/78/69/45/7869459a488917aef60594876a7ef13b.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>    
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <div class="card">
+                            <img src="https://img.freepik.com/foto-gratis/hermoso-camino-madera-que-impresionantes-arboles-coloridos-bosque_181624-5840.jpg?w=2000" class="card-img-top" alt="...">
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-4 col-md-4 col-lg-4">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/photos/various-sport-equipments-on-grass-picture-id949190756?k=20&m=949190756&s=170667a&w=0&h=RBVLWqBNY1OrRyUX-bi-gcEPtszzZOxzmU-ori5467M=" class="card-img-top" alt="...">
+                        </div>
+                        </div>
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <div class="card">
+                            <img src="https://img.freepik.com/free-vector/flat-national-sports-day-illustration_23-2148999705.jpg?w=2000" class="card-img-top" alt="...">
+                            </div>
+                        </div>    
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLK4Ft-Pd9Jzjjtd5R1pw6VhEj1S9Dufe6xA&usqp=CAU" class="card-img-top" alt="...">
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-4 col-md-4 col-lg-4">
+                        <div class="card">
+                            <img src="https://wallpaperaccess.com/full/1940049.jpg" class="card-img-top" alt="...">
+                        </div>
+                        </div>
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <div class="card">
+                            <img src="https://wallpaperaccess.com/full/39608.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div> 
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <div class="card">
+                            <img src="https://wallpaperaccess.com/full/39608.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>   
+                    </div>
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
-              </div> -->
+                <!-- cierre vista grid -->
+                <!-- inicio feed instagram -->
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="align-items-center h-100">  
+                    <div class="card col-6 mx-auto border-secondary mb-5 bg-light">
+                        <h5 class="display-5">My first photo</h5>
+                        <img src="https://wallpaperaccess.com/full/39608.jpg" class="card-img-top" alt="...">
+                        <br>
+                        <p><strong><i class="bi bi-heart-fill"></i>200 likes</strong></p>
+                        <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet. Qui delectus placeat aut optio aperiam nam neque dolor aut eaque internos. Sit reiciendis dolorem eos explicabo est quaerat dicta aut consequuntur maxime et repudiandae libero in beatae facilis et ratione galisum! Et impedit atque qui sequi </p>
+                        </div>
+                    </div>
+                    <div class="card col-6 mx-auto border-secondary mb-5 bg-light">
+                        <h5 class="display-5">My second photo</h5>
+                        <img src="https://concepto.de/wp-content/uploads/2015/03/paisaje-800x409.jpg" class="card-img-top" alt="...">
+                        <br>
+                        <p><strong><i class="bi bi-heart-fill"></i>200 likes</strong></p>
+                        <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet. Qui delectus placeat aut optio aperiam nam neque dolor aut eaque internos. Sit reiciendis dolorem eos explicabo est quaerat dicta aut consequuntur maxime et repudiandae libero in beatae facilis et ratione galisum! Et impedit atque qui sequi </p>
+                        </div>
+                    </div>
+                    <div class="card col-6 mx-auto border-secondary mb-5 bg-light">
+                        <h5 class="display-5">My third photo</h5>
+                        <img src="https://img.freepik.com/free-vector/flat-national-sports-day-illustration_23-2148999705.jpg?w=2000" class="card-img-top" alt="...">
+                        <br>
+                        <p><strong><i class="bi bi-heart-fill"></i>200 likes</strong></p>
+                        <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet. Qui delectus placeat aut optio aperiam nam neque dolor aut eaque internos. Sit reiciendis dolorem eos explicabo est quaerat dicta aut consequuntur maxime et repudiandae libero in beatae facilis et ratione galisum! Et impedit atque qui sequi </p>
+                        </div>
+                    </div>
+                    <div class="card col-6 mx-auto border-secondary mb-5 bg-light">
+                        <h5 class="display-5">My fourth photo</h5>
+                        <img src="https://wallpaperaccess.com/full/39608.jpg" class="card-img-top" alt="...">
+                        <br>
+                        <p><strong><i class="bi bi-heart-fill"></i>200 likes</strong></p>
+                        <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet. Qui delectus placeat aut optio aperiam nam neque dolor aut eaque internos. Sit reiciendis dolorem eos explicabo est quaerat dicta aut consequuntur maxime et repudiandae libero in beatae facilis et ratione galisum! Et impedit atque qui sequi </p>
+                        </div>
+                    </div>
+                    <div class="card col-6 mx-auto border-secondary mb-5 bg-light">
+                        <h5 class="display-5">My fifth photo</h5>
+                        <img src="https://wallpaperaccess.com/full/39608.jpg" class="card-img-top" alt="...">
+                        <br>
+                        <p><strong><i class="bi bi-heart-fill"></i>200 likes</strong></p>
+                        <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet. Qui delectus placeat aut optio aperiam nam neque dolor aut eaque internos. Sit reiciendis dolorem eos explicabo est quaerat dicta aut consequuntur maxime et repudiandae libero in beatae facilis et ratione galisum! Et impedit atque qui sequi </p>
+                        </div>
+                    </div> 
+                    <div class="card col-6 mx-auto border-secondary mb-5 bg-light">
+                        <h5 class="display-5">My sixt photo</h5>
+                        <img src="https://wallpaperaccess.com/full/39608.jpg" class="card-img-top" alt="...">
+                        <br>
+                        <p><strong><i class="bi bi-heart-fill"></i>200 likes</strong></p>
+                        <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet. Qui delectus placeat aut optio aperiam nam neque dolor aut eaque internos. Sit reiciendis dolorem eos explicabo est quaerat dicta aut consequuntur maxime et repudiandae libero in beatae facilis et ratione galisum! Et impedit atque qui sequi </p>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+            <!-- fin feed instagram -->
+        </div> 
         </div> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </div>
 </body>  
 </body>
 </html>
